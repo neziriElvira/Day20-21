@@ -1,0 +1,77 @@
+
+.title {
+    position:absolute;
+    left: 25%;
+}
+
+textarea {
+    position:absolute;
+    left: 27%;
+    top: 10%;
+    width: 46%;
+    height: 300px;
+    pad: 5px 0;
+    background-image: linear-gradient(to right, rgba(205, 200, 252, 0.562) , rgb(255, 255, 255));
+}
+
+.keyboard {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 26%;
+    bottom: 10%;
+    width: 48%;
+    height: auto;
+    pad: 5px 0;
+    background-color: rgb(83, 82, 82);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    user-select: none;
+    transition: bottom 0.4s;
+}
+
+.keyboard-keys {
+    text-align: center;
+    max-width: 750px;
+}
+
+.keyboard-key {
+    height:45px;
+    width:6%;
+    min-width: 20px;
+    margin: 2px 1px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 1.0rem;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    padding: 0;
+    -webkit-top-highlight-color: transparent;
+    position: relative;
+}
+
+.keyboard-key:hover {
+    color: rgb(181, 252, 252);
+    font-size: 120%;
+}
+
+.keyboard-key:active {
+    background: rgba(0, 0, 0, 0.473);
+}
+
+.keyboard-key-wide {
+    width: 30%;
+}
+
+.keyboard-key-extra-wide {
+    width: 60%;
+    max-width: 800px;
+}
+
+.keyboard-key-w {
+    width: 37%;
+}
