@@ -31,11 +31,7 @@ function funcEnter() {
 
 function funcSub() {
     var valu = document.getElementById('display').innerHTML;
-    if (valu == "") {
-        alert("Please, first type some text!");
-    } else {
         alert(valu);
-    }
 }
 
 function func(key) {
